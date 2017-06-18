@@ -3,6 +3,8 @@ package com.project.tura.kedditbysteps
 import android.support.v4.util.SparseArrayCompat
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
+import com.project.tura.kedditbysteps.delegates.LoadingDelegateAdapter
+import com.project.tura.kedditbysteps.delegates.ViewTypeDelegateAdapter
 
 /**
  * Created by nyh0111 on 2017-06-14.

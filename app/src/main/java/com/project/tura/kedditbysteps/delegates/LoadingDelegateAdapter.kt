@@ -1,7 +1,10 @@
-package com.project.tura.kedditbysteps
+package com.project.tura.kedditbysteps.delegates
 
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
+import com.project.tura.kedditbysteps.R
+import com.project.tura.kedditbysteps.ViewType
+import com.project.tura.kedditbysteps.inflate
 
 /**
  * Created by nyh0111 on 2017-06-14.
