@@ -1,7 +1,9 @@
-package com.project.tura.kedditbysteps
+package com.project.tura.kedditbysteps.delegates
 
 import android.support.v7.widget.RecyclerView
 import android.view.ViewGroup
+import com.project.tura.kedditbysteps.*
+import com.project.tura.kedditbysteps.R.layout.news_item
 import kotlinx.android.synthetic.main.news_item.view.*
 
 /**
@@ -14,7 +16,7 @@ class NewsDelegateAdapter(val viewActions: OnViewSelectedListener) : ViewTypeDel
         fun onItemSelected(url: String?)
     }
 
-    inner class NewsViewHolder(parent: ViewGroup) : RecyclerView.ViewHolder(parent.inflate(R.layout.news_item)) {
+    inner class NewsViewHolder(parent: ViewGroup) : RecyclerView.ViewHolder(parent.inflate(news_item)) {
         fun bind(item: RedditNewsItem) = with(itemView) {
             img_thumbnail.loadImage(item.thumbnail)
             description.text = item.title

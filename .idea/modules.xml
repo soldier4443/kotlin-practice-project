@@ -2,8 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/KedditBySteps.iml" filepath="$PROJECT_DIR$/KedditBySteps.iml" />
+      <module fileurl="file://C:\Users\soldi\AndroidStudioProjects\kotlin-practice-project\KedditBySteps.iml" filepath="C:\Users\soldi\AndroidStudioProjects\kotlin-practice-project\KedditBySteps.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/kotlin-practice-project.iml" filepath="$PROJECT_DIR$/kotlin-practice-project.iml" />
     </modules>
   </component>
 </project>
