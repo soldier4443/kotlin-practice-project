@@ -10,7 +10,7 @@ import kotlinx.android.synthetic.main.news_item.view.*
  * Created by nyh0111 on 2017-06-15.
  */
 
-class NewsDelegateAdapter(val viewActions: OnViewSelectedListener) : ViewTypeDelegateAdapter {
+class NewsDelegateAdapter : ViewTypeDelegateAdapter {
 
     interface OnViewSelectedListener {
         fun onItemSelected(url: String?)
@@ -24,7 +24,7 @@ class NewsDelegateAdapter(val viewActions: OnViewSelectedListener) : ViewTypeDel
             comments.text = "${item.numComments} comments"
             time.text = item.created.getFriendlyTime()
 
-            super.itemView.setOnClickListener { viewActions.onItemSelected(item.url) }
+//            super.itemView.setOnClickListener { viewActions.onItemSelected(item.url) }
         }
     }
 
